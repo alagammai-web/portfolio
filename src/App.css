@@ -1,0 +1,35 @@
+body{
+  background: #131723;
+}
+.history li{
+  position: relative;
+}
+.history li:before{
+  position: absolute;
+  top: 13px;
+  left: -29px;
+  background: #22c55e;
+  width: 11px;
+  height: 11px;
+  box-shadow: 0px 0px 0px 4px #22c55e57;
+  content: "";
+  border-radius: 100%;
+}
+.history li:after{
+  position: absolute;
+    top: -49px;
+    left: -24px;
+    border-left: 1px dashed #22c55e;
+    width: 1px;
+    height: 220px;
+    content: "";
+}
+.nav-tabs .nav-link.active{
+  background: #22c55e !important;
+  color: #fff;
+  border: none !important;
+  padding: 12px 20px;
+}
+.mobile img{
+  height: 355px;
+}
