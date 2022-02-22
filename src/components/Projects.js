@@ -54,21 +54,19 @@ const Projects = () => {
       <div className="projects col-8 mx-auto mt-10">
         <ul className="list-inline flex text-white font-medium text-xl mb-5 border-b-2 border-emerald-500">
           <li className="mr-0 border-r-2 border-green-400 flex items-center">
-            <a
-              href="#"
+            <span
               className={
                 showResultsservice
-                  ? "p-3 hover:text-white bg-emerald-400 p-2  mr-0 inline-block align-center"
-                  : "p-3 hover:text-white"
+                  ? "p-3 hover:text-white bg-emerald-400 p-2  mr-0 inline-block align-center pointer"
+                  : "p-3 hover:text-white pointer"
               }
               onClick={() => clickTab()}
             >
               Service
-            </a>
+            </span>
           </li>
           <li className="mr-0 border-r-2 border-green-400 flex items-center">
-            <a
-              href="#"
+            <span
               className={
                 showResultsproduct
                   ? "p-3 hover:text-white bg-emerald-400 p-2  mr-0 inline-block align-center"
@@ -77,11 +75,10 @@ const Projects = () => {
               onClick={() => prodclick()}
             >
               Product
-            </a>
+            </span>
           </li>
           <li className="mr-5 flex items-center">
-            <a
-              href="#"
+            <span
               className={
                 showResultsmobile
                   ? "p-3 hover:text-white bg-emerald-400 p-2  mr-2 inline-block align-center"
@@ -90,7 +87,7 @@ const Projects = () => {
               onClick={() => mobileclick()}
             >
               Mobile
-            </a>
+            </span>
           </li>
         </ul>
 
