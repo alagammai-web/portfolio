@@ -5,7 +5,8 @@ const About = () => {
   return (
     <section id="about">
       <div className="container flex px-10 py-20">
-        <div className="w-50 py-20">
+    <div class="row">
+        <div className="col-md-6 py-20">
           <h1 className="title-font sm:text-5xl text-5xl mb-4 font-medium text-white">
             Hi, I'm Alagammai Narayanan.
             <br className="hidden lg:inline-block pt-2 " />
@@ -39,10 +40,11 @@ const About = () => {
             </a>
           </div>
         </div>
-        <div className="w-50">
+        <div className="col-md-6">
           <img src="./images/portfolio-1-min-0.png" alt="" />
         </div>
       </div>
+    </div>
     </section>
   );
 };
