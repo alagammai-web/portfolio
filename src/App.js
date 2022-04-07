@@ -1,11 +1,11 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Abt from "./components/About";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import JobHistory from "./components/Jobhistory";
-import Contact from "./components/Contact";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Abt from "./components/About";
+// import Projects from "./components/Projects";
+// import Skills from "./components/Skills";
+// import JobHistory from "./components/Jobhistory";
+// import Contact from "./components/Contact";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (

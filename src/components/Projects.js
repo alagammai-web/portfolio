@@ -109,6 +109,7 @@ const Projects = () => {
                             href={dat.link}
                             className="p-3 block hover:text-white"
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {dat.title}
                           </a>
