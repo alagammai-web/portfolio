@@ -20,8 +20,8 @@ const Jobhistory = () => {
       <h2 className="capitalize text-white text-4xl font-semibold antialiased text-center">
         Job History
       </h2>
-      <div className="container flex py-3 px-32 mx-auto">
-        <div className="w-50 mx-auto py-5 px-4 bg-gray-800 my-5 text-white">
+      <div className="col-sm-12 pr-4 pl-4">
+        <div className="col-md-4 offset-md-4 mx-auto py-5 px-4 bg-gray-800 my-5 text-white">
           <ul className="history">
             <li className="mb-4 leading-10">
               <span className="font-semibold text-xl text-emerald-400">

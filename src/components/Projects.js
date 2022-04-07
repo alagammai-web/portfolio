@@ -51,7 +51,7 @@ const Projects = () => {
       <h2 className="capitalize text-white text-4xl font-semibold antialiased text-center">
         Projects
       </h2>
-      <div className="projects col-8 mx-auto mt-10">
+      <div className="projects col-md-8 offset-md-2 mt-10">
         <ul className="list-inline flex text-white font-medium text-xl mb-5 border-b-2 border-emerald-500">
           <li className="mr-0 border-r-2 border-green-400 flex items-center">
             <span
@@ -98,7 +98,10 @@ const Projects = () => {
                   <div className="row">
                     {/* <h1 className="text-white">{resp.categorytitle}</h1> */}
                     {resp.webnames.map((dat) => (
-                      <div className="col-6 text-white">
+                      <div
+                        className="col-md-6 text-white"
+                        key={resp.webnames.title}
+                      >
                         <img src={dat.image} alt="" />
                         {/* <p className="text-white">{dat.link}</p> */}
                         <p className="text-white font-base text-xl bg-gray-800 mb-5">
@@ -121,7 +124,10 @@ const Projects = () => {
                   <div className="row">
                     {/* <h1 className="text-red-500">{resp.categorytitle}</h1> */}
                     {resp.webnames.map((dat) => (
-                      <div className="col-6 text-white">
+                      <div
+                        className="col-md-6 text-white"
+                        key={resp.webnames.title}
+                      >
                         <img src={dat.image} alt="" />
                         {/* <p className="text-white">{dat.link}</p> */}
                         <p className="text-white font-base text-xl  bg-gray-800 mb-5">
@@ -143,7 +149,10 @@ const Projects = () => {
                   <div className="row mobile">
                     {/* <h1 className="text-emerald-500">{resp.categorytitle}</h1> */}
                     {resp.webnames.map((dat) => (
-                      <div className="col-3 text-white">
+                      <div
+                        className="col-md-3 text-white"
+                        key={resp.webnames.title}
+                      >
                         <img src={dat.image} alt="" />
                         {/* <p className="text-white"></p> */}
                         <p className="text-white font-base text-xl  bg-gray-800">

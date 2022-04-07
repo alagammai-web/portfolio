@@ -9,7 +9,7 @@ import Skills from "./Skills";
 const Navbar = () => {
   return (
     <>
-      <div className="bg-gray-800 px-3 py-3 text-gray-400 hover:text-white text-lg">
+      <div className="navigation row  bg-gray-800 px-3 py-3 text-gray-400  text-lg">
         {/* <Link to="#about" className="px-3 py-3 hover:text-white">
           About
         </Link>
