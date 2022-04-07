@@ -100,7 +100,6 @@ const Contact = () => {
 
       <div className="social col-md-8 offset-md-2 mx-auto">
         <div className="footer-social flex mx-auto justify-center mt-5">
-<<<<<<< HEAD
           <a href="https://www.linkedin.com/in/alagammai-narayanan-0a618475/">
             <i className="lab la-linkedin-in text-green-400 font-medium text-3xl "></i>
           </a>
@@ -109,16 +108,6 @@ const Contact = () => {
           </a>
           <a href="https://www.facebook.com/alagammai03">
             <i className="lab la-facebook text-green-400 font-medium text-3xl "></i>
-=======
-          <a href="https://www.linkedin.com/in/alagammai-narayanan-0a618475/" target="_blank">
-            <i class="lab la-linkedin-in text-green-400 font-medium text-3xl mr-4"></i>
-          </a>
-          <a href="https://github.com/alagammai-web" target="_blank">
-            <i class="lab la-github text-green-400 font-medium text-3xl mr-4"></i>
-          </a>
-          <a href="https://www.facebook.com/alagammai03" target="_blank">
-            <i class="lab la-facebook text-green-400 font-medium text-3xl mr-4"></i>
->>>>>>> 3285eecc8bb15c288a4023f4c23c1af5e1a3f21e
           </a>
         </div>
       </div>
